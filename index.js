@@ -14,7 +14,7 @@ const port = process.env.PORT;
 app.use("/api/user", userrouter);
 app.use("/api/book", bookrouter);
 app.get("/", (req, res) => {
-  res.send("Hello, this is your Express API in the port 4000!");
+  res.send("Hello, this is your Express API in the port 3000!");
 });
 app.listen(port, () => {
   console.log("My app is listening in the port");
